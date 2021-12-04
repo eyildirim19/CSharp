@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SinifKutuphaneleri.UI", "Si
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SinifKutuphaneleri.Classes", "SinifKutuphaneleri.Classes\SinifKutuphaneleri.Classes.csproj", "{F98B7995-D63F-4066-989D-B124E3E1CA6F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericClasesss", "GenericClasesss\GenericClasesss.csproj", "{3E6FB7C0-D41D-465C-8D0A-A51D2578E8D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericYapilar", "GenericYapilar\GenericYapilar.csproj", "{02822975-0F9C-4EB0-BAEF-BA30C6CB0E00}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{F98B7995-D63F-4066-989D-B124E3E1CA6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F98B7995-D63F-4066-989D-B124E3E1CA6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F98B7995-D63F-4066-989D-B124E3E1CA6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E6FB7C0-D41D-465C-8D0A-A51D2578E8D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E6FB7C0-D41D-465C-8D0A-A51D2578E8D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E6FB7C0-D41D-465C-8D0A-A51D2578E8D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E6FB7C0-D41D-465C-8D0A-A51D2578E8D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02822975-0F9C-4EB0-BAEF-BA30C6CB0E00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02822975-0F9C-4EB0-BAEF-BA30C6CB0E00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02822975-0F9C-4EB0-BAEF-BA30C6CB0E00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02822975-0F9C-4EB0-BAEF-BA30C6CB0E00}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
