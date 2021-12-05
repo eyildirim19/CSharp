@@ -8,13 +8,29 @@ namespace GenericYapilar
         static void Main(string[] args)
         {
             // generic koleksyionlar => arrayleri dinamik kullanmak (uzunluk belirtmeden) kullanılır.. Burada kullanacağımız en önemli sınıf List generic sınıfıdır. Gelişmiş dizi yapısı gibi düşünebilirsiniz.. Bu sınıfı kullanmak için dosyasına SYstem.Collections.Generic namespacesini eklemeniz gerekmektedir...
-            int[] sayilar = new int[5];
+            int[] sayilar = new int[20];
+
+            for (int i = 0; i < 20; i++)
+            {
+                sayilar[i] = i;
+            }
+
+            List<int> sayis = new List<int>();
+
+            for (int i = 0; i < 20; i++)
+            {
+                sayis.Add(i);
+            }
+
             // Bundan sonra array yerine list yapılarını kullanacağız..
 
             // listlerde eleman eklemek için add metodu kullanılır. Add metodu listelere sıralı eleman eklemek için kullanılır...
             List<int> sayilar2 = new List<int>(); // int tipinde list oluşturduk. <int> ifadesi ile sayilar2 listine sadece int eleman eklenebileceğini belirttik
             sayilar2.Add(4);
             sayilar2.Add(120);
+
+
+
 
             List<string> kisiler = new List<string>();
             kisiler.Add("Furkan");
