@@ -80,7 +80,13 @@ namespace Linq2
             float ortalam = ogrencis.Sum(c => c.Notu.Ortalama) / ogrencis.Count;
             float ortalama = ogrencis.Average(c => c.Notu.Ortalama);
 
-
+            // en yüksek not alan 5 öğrenci...
+            // orderby sıralama komutudur. iki alt parametresi vardır. Bunlar;
+            // ascending => artan 
+            //descending => azalan
+            List<Ogrenci> yuksekler = (from a in ogrencis
+                                       orderby a.Notu.Ortalama descending
+                                       select a).Take(5).ToList();
 
             Console.ReadKey();
         }
